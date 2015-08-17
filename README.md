@@ -1,2 +1,1 @@
-# ejcorgis
-EJ and his love of Corgi's
+Badu's Portfolio
