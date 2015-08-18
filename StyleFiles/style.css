@@ -1,0 +1,19 @@
+
+.nameplate {
+    font-family: 'Bad Script', cursive;
+    padding: 10px;
+}
+
+.HeaderNavBar {
+    margin: 15px;
+    background-color: #f9c386;
+    height: 170px;
+}
+
+.Footer {
+    margin: 15px;
+    height: 110px;
+    background-color: #f9c386;
+    font-family: 'Catamaran', sans-serif;
+}
+
