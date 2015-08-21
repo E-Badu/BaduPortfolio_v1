@@ -2,18 +2,60 @@
 .nameplate {
     font-family: 'Bad Script', cursive;
     padding: 10px;
+    margin-left: 250px;
+    width: 850px;
+}
+
+.nav .nav-tabs{
+clear: both;
 }
 
 .HeaderNavBar {
     margin: 15px;
+    margin-bottom:120px;
     background-color: #f9c386;
     height: 170px;
+    
+}
+
+.MainContent {
+    margin: 15px;
+    background-color: #f9c386;
+    font-family: 'Bad Script', cursive;
+}
+
+.hello {
+    font-size: 74px;
+}
+
+.abit {
+    font-size: 52px;
+}
+
+.headshot {
+    height: 350px;
+    float: left;
+}
+
+.headshottext {
+   float: right; 
+    margin-left: 30px;
+}
+
+.textundertext{
+    margin-left: 30px;
+}
+
+.Intro {
+   margin: 0 auto;
+    margin-left: 250px;
+    width: 900px;
+    height: 900px;
 }
 
 .Footer {
     margin: 15px;
     height: 110px;
     background-color: #f9c386;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Bad Script', cursive;
 }
-
