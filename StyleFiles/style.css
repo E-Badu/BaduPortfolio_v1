@@ -25,13 +25,13 @@
 .HeaderNavBar {
     margin: 15px;
     margin-bottom: 120px;
-    background-color: #f9c386;
+    background-color: #f8ab69;
     height: 170px;
 }
 
 .MainContent {
     margin: 15px;
-    background-color: #f9c386;
+    background-color: #f8ab69;
     font-family: 'Catamaran';
 }
 
@@ -115,6 +115,50 @@
 
 .Footer {
     height: 110px;
-    background-color: #f9c386;
+    background-color: #f8ab69;
     font-family: 'Catamaran';
+}
+
+.call {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 18px;
+}
+
+.contact {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 18px;
+}
+
+.follow {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 18px;
+}
+
+.copy {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 18px;
+}
+
+.bottom {
+margin-left: 250px;
+    overflow: auto;
+    
+}
+
+.circle-icon {
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+           
 }
