@@ -1,35 +1,49 @@
+.intro {
+    margin: 0 auto;
+    margin-left: 250px;
+    height: 900px;
+}
 
 .nameplate {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Catamaran';
+    font-weight: bold;
+    font-size: 18px;
     padding: 10px;
     margin-left: 250px;
     width: 850px;
 }
 
-.nav .nav-tabs{
-clear: both;
+.ericabadu {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav .nav-tabs {
+    clear: both;
 }
 
 .HeaderNavBar {
     margin: 15px;
-    margin-bottom:120px;
+    margin-bottom: 120px;
     background-color: #f9c386;
     height: 170px;
-    
 }
 
 .MainContent {
     margin: 15px;
     background-color: #f9c386;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Catamaran';
 }
 
 .hello {
     font-size: 74px;
+    font-weight: 800;
+    margin-bottom: 1px;
 }
 
 .abit {
     font-size: 52px;
+    font-weight: 600;
 }
 
 .headshot {
@@ -38,24 +52,69 @@ clear: both;
 }
 
 .headshottext {
-   float: right; 
+    float: right;
     margin-left: 30px;
 }
 
-.textundertext{
+.circle-resume {
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    margin-right: 25px;
+    
+}
+
+.circle-work {
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    margin-right: 25px;
+    
+}
+
+.circle-skills {
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    margin-right: 25px;
+    clear: right;
+    
+}
+
+.circle-content {
+  color: #fff;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.circleholder {
     margin-left: 30px;
 }
 
-.Intro {
-   margin: 0 auto;
-    margin-left: 250px;
-    width: 900px;
-    height: 900px;
+.textundercircles {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .Footer {
-    margin: 15px;
     height: 110px;
     background-color: #f9c386;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Catamaran';
 }
