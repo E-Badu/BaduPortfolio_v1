@@ -158,11 +158,45 @@ i.fa.fa-mobile   {
 
 
 .call p {
-display: inline-block;
+    display: inline-block;
     line-height: 2;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 16px;
     color: #fdebdc;
+    
+}
+
+.call a:link{
+    text-decoration: none;
+    color: #fdebdc;
+    font-weight: 700;
+}
+
+.call a:hover {
+    color: #008E97;
+    font-weight: 700;
+}
+
+.contact a:link{
+    text-decoration: none;
+    color: #fdebdc;
+    font-weight: 700;
+}
+
+.contact a:hover {
+    color: #008E97;
+    font-weight: 700;
+}
+
+.follow a:link{
+    text-decoration: none;
+    color: #fdebdc;
+    font-weight: 700;
+}
+
+.follow a:hover {
+    color: #008E97;
+    font-weight: 700;
 }
 
 i.fa.fa-envelope-o   {
@@ -179,7 +213,7 @@ i.fa.fa-envelope-o   {
 display: inline-block;
     line-height: 2;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 16px;
     color: #fdebdc;
 }
 
