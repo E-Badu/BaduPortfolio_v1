@@ -25,13 +25,13 @@ text-decoration-line: none;
 .HeaderNavBar {
     margin: 15px;
     margin-bottom: 120px;
-    background-color: #f8ab69;
+    background-color: #fdebdc;
     height: 170px;
 }
 
 .MainContent {
     margin: 15px;
-    background-color: #f8ab69;
+    background-color: #fdebdc;
     font-family: 'Catamaran';
 }
 
@@ -114,43 +114,25 @@ text-decoration-line: none;
 }
 
 .Footer {
-    height: 110px;
-    background-color: #f8ab69;
+    height: 150px;
+    background-color: #F58220;
     font-family: 'Catamaran';
+    overflow: hidden;
 }
 
-.call {
+.call, .contact, .copy, .follow {
+    margin-top: 40px;
     height: 80px;
     width: 200px;
     float: left;
     font-size: 18px;
 }
 
-.contact {
-    height: 80px;
-    width: 200px;
-    float: left;
-    font-size: 18px;
-}
-
-.follow {
-    height: 80px;
-    width: 200px;
-    float: left;
-    font-size: 18px;
-}
-
-.copy {
-    height: 80px;
-    width: 200px;
-    float: left;
-    font-size: 18px;
-}
 
 .bottom {
-margin-left: 250px;
+    margin-left: 250px;
     overflow: auto;
-    
+    height: 150px;
 }
 
 .circle-icon {
@@ -159,7 +141,8 @@ margin-left: 250px;
     width: 50px;
     position: relative;
     border: 1px solid black;
-    text-align: center;    
+    text-align: center;  
+    background-color: #fdebdc;
 }
 
 
@@ -179,6 +162,7 @@ display: inline-block;
     line-height: 2;
     margin-left: 10px;
     font-size: 22px;
+    color: #fdebdc;
 }
 
 i.fa.fa-envelope-o   {
@@ -196,6 +180,7 @@ display: inline-block;
     line-height: 2;
     margin-left: 10px;
     font-size: 22px;
+    color: #fdebdc;
 }
 
 i.fa.fa-plus  {
@@ -213,6 +198,7 @@ display: inline-block;
     line-height: 2;
     margin-left: 10px;
     font-size: 22px;
+    color: #fdebdc;
 }
 
 i.fa.fa-copyright   {
@@ -230,4 +216,6 @@ display: inline-block;
     line-height: 2;
     margin-left: 10px;
     font-size: 22px;
+    color: #fdebdc;
+    
 }
