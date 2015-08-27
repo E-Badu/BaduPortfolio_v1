@@ -65,6 +65,21 @@ text-decoration-line: none;
     float: left;
     border: 2px solid black;
     margin-right: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #008E97;
+    
+    
+}
+
+.circle-resume a:link {
+    color: #fdebdc;
+    text-decoration: none;
+}
+
+.circle-resume:hover {
+    background-color: #00575c ;
+    transition: ease .4s;
     
 }
 
@@ -77,8 +92,22 @@ text-decoration-line: none;
     float: left;
     border: 2px solid black;
     margin-right: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #F58220;
     
 }
+.circle-work a:link {
+    color: #fdebdc;
+    text-decoration: none;
+}
+
+
+.circle-work:hover {
+    background-color: #602f04 ;
+    transition: ease .4s;
+}
+
 
 .circle-skills {
     height: 150px;
@@ -90,8 +119,21 @@ text-decoration-line: none;
     border: 2px solid black;
     margin-right: 25px;
     clear: right;
-    
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #005778;
 }
+
+.circle-skills a:link {
+    color: #fdebdc;
+    text-decoration: none;
+}
+
+.circle-skills:hover {
+    background-color: #003b51 ;
+    transition: ease .4s;
+}
+
 
 .circle-content {
   color: #fff;
@@ -120,18 +162,19 @@ text-decoration-line: none;
     overflow: hidden;
 }
 
-.call, .contact, .copy, .follow {
+.call, .contact, .copy, .follow{
+    
     margin-top: 40px;
     height: 80px;
-    width: 200px;
+    width: 50px;
     float: left;
     font-size: 18px;
 }
 
 
 .bottom {
-    margin-left: 250px;
-    overflow: auto;
+    margin-left: 50px;
+    overflow: hidden;
     height: 150px;
 }
 
@@ -189,7 +232,6 @@ i.fa.fa-mobile   {
 }
 
 .follow a:link{
-    text-decoration: none;
     color: #fdebdc;
     font-weight: 700;
 }
@@ -231,7 +273,7 @@ i.fa.fa-plus  {
 display: inline-block;
     line-height: 2;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 16px;
     color: #fdebdc;
 }
 
@@ -249,7 +291,7 @@ i.fa.fa-copyright   {
 display: inline-block;
     line-height: 2;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 16px;
     color: #fdebdc;
     
 }
