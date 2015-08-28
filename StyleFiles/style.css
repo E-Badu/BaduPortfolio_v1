@@ -10,7 +10,7 @@
     font-size: 18px;
     padding: 10px;
     margin-left: 250px;
-    width: 850px;
+    width: 950px;
 }
 
 .ericabadu {
@@ -18,16 +18,34 @@
     font-weight: 700;
 }
 
-.nav-tabs {
-text-decoration-line: none;
+ul.nav-pills li a{
+    background-color: #fdebdc;
+    margin: 0px;
+    margin-left: 70px;
+    padding: 0px;
 }
 
+ul.nav-pills li a:link{
+    color: black;
+    
+}
+
+ul.nav-pills li a:hover{
+    color: #008E97;
+    background-color: #fdebdc;
+    transition: ease .6s;
+}
+
+
+
 .HeaderNavBar {
-    margin: 15px;
-    margin-bottom: 120px;
+    
+    margin-bottom: 100px;
     background-color: #fdebdc;
     height: 170px;
 }
+
+
 
 .MainContent {
     margin: 15px;
@@ -63,7 +81,7 @@ text-decoration-line: none;
     position: relative;
     text-align: center;
     float: left;
-    border: 2px solid black;
+    border: 0px solid black;
     margin-right: 25px;
     text-transform: uppercase;
     font-weight: 700;
@@ -79,7 +97,7 @@ text-decoration-line: none;
 
 .circle-resume:hover {
     background-color: #00575c ;
-    transition: ease .4s;
+    transition: ease-in .4s;
     
 }
 
@@ -90,7 +108,7 @@ text-decoration-line: none;
     position: relative;
     text-align: center;
     float: left;
-    border: 2px solid black;
+    border: 0px solid black;
     margin-right: 25px;
     text-transform: uppercase;
     font-weight: 700;
@@ -116,7 +134,7 @@ text-decoration-line: none;
     position: relative;
     text-align: center;
     float: left;
-    border: 2px solid black;
+    border: 0px solid black;
     margin-right: 25px;
     clear: right;
     text-transform: uppercase;
