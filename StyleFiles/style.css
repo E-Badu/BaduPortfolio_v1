@@ -51,6 +51,7 @@ ul.nav-pills li a:hover{
     margin: 15px;
     background-color: #fdebdc;
     font-family: 'Catamaran';
+    
 }
 
 .hello {
@@ -119,13 +120,10 @@ ul.nav-pills li a:hover{
     color: #fdebdc;
     text-decoration: none;
 }
-
-
 .circle-work:hover {
     background-color: #602f04 ;
     transition: ease .4s;
 }
-
 
 .circle-skills {
     height: 150px;
@@ -152,7 +150,6 @@ ul.nav-pills li a:hover{
     transition: ease .4s;
 }
 
-
 .circle-content {
   color: #fff;
   float: left;
@@ -175,9 +172,11 @@ ul.nav-pills li a:hover{
 
 .Footer {
     height: 150px;
+    width: 100%;
     background-color: #F58220;
     font-family: 'Catamaran';
     overflow: hidden;
+    clear: both;
 }
 
 .call, .contact, .copy, .follow{
@@ -188,7 +187,6 @@ ul.nav-pills li a:hover{
     float: left;
     font-size: 18px;
 }
-
 
 .bottom {
     margin-left: 50px;
@@ -206,7 +204,6 @@ ul.nav-pills li a:hover{
     background-color: #fdebdc;
 }
 
-
 i.fa.fa-mobile   {
   font-size: 40px;
     line-height: 60px;
@@ -216,7 +213,6 @@ i.fa.fa-mobile   {
     vertical-align: bottom;
     text-align: center;
 }
-
 
 .call p {
     display: inline-block;
@@ -312,4 +308,33 @@ display: inline-block;
     font-size: 16px;
     color: #fdebdc;
     
+}
+
+/* For Resume.html */
+
+.resumepage {
+height: 300px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 250px;
+    
+}
+
+.resumeaside {
+    width: 100%;
+    overflow: hidden;
+    float: right;
+    
+}
+
+.resumetitle {
+    font-family: 'Catamaran';
+    font-weight:600;
+    font-size: 62px;
+        
+}
+
+hr {
+    color: black;
+    height: 2px;
 }
