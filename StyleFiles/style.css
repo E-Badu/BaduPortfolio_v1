@@ -36,15 +36,12 @@ ul.nav-pills li a:hover{
     transition: ease .6s;
 }
 
-
-
 .HeaderNavBar {
     
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #fdebdc;
     height: 170px;
 }
-
 
 
 .MainContent {
@@ -311,30 +308,27 @@ display: inline-block;
 }
 
 /* For Resume.html */
-
 .resumepage {
-height: 300px;
+    height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow:visible;
     margin-left: 250px;
-    
 }
 
 .resumeaside {
     width: 100%;
     overflow: hidden;
     float: right;
-    
 }
 
 .resumetitle {
     font-family: 'Catamaran';
-    font-weight:600;
-    font-size: 62px;
-        
+    font-weight: 600;
+    font-size: 72px;
 }
 
 hr {
+    height: 8px;
+    background-color: black;
     color: black;
-    height: 2px;
 }
