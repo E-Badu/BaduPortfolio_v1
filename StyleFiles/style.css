@@ -84,8 +84,6 @@ ul.nav-pills li a:hover{
     text-transform: uppercase;
     font-weight: 700;
     background-color: #008E97;
-    
-    
 }
 
 .circle-resume a:link {
@@ -113,10 +111,12 @@ ul.nav-pills li a:hover{
     background-color: #F58220;
     
 }
+
 .circle-work a:link {
     color: #fdebdc;
     text-decoration: none;
 }
+
 .circle-work:hover {
     background-color: #602f04 ;
     transition: ease .4s;
@@ -196,12 +196,11 @@ ul.nav-pills li a:hover{
     border-radius: 50%;
     width: 50px;
     position: relative;
-    border: 1px solid black;
     text-align: center;  
     background-color: #fdebdc;
 }
 
-i.fa.fa-mobile   {
+.fa.fa-mobile   {
   font-size: 40px;
     line-height: 60px;
     width: 60px;
@@ -252,7 +251,7 @@ i.fa.fa-mobile   {
     font-weight: 700;
 }
 
-i.fa.fa-envelope-o   {
+.fa.fa-envelope-o   {
   font-size: 30px;
     line-height: 55px;
     width: 60px;
@@ -270,7 +269,7 @@ display: inline-block;
     color: #fdebdc;
 }
 
-i.fa.fa-plus  {
+.fa.fa-plus  {
   font-size: 25px;
     line-height: 60px;
     width: 60px;
@@ -288,7 +287,7 @@ display: inline-block;
     color: #fdebdc;
 }
 
-i.fa.fa-copyright   {
+.fa.fa-copyright   {
   font-size: 30px;
     line-height: 57px;
     width: 60px;
@@ -315,10 +314,17 @@ display: inline-block;
     margin-left: 250px;
 }
 
+.asideheader {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
 .resumeaside {
     width: 100%;
     overflow: hidden;
     float: right;
+    margin-left: 50px;
 }
 
 .resumetitle {
@@ -327,8 +333,103 @@ display: inline-block;
     font-size: 72px;
 }
 
-hr {
-    height: 8px;
-    background-color: black;
-    color: black;
+.circle-small {
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    border: 0px solid black;
+    background-color: #F58220;
+}
+
+.fa.fa-globe  {
+  font-size: 25px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.fa.fa-bookmark  {
+  font-size: 25px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.resumeaside li {
+    list-style: none;
+}
+
+
+.resumeaside {
+    margin-top: 150px;
+}
+
+.resume-titlecircle {
+    height: 130px;
+    border-radius: 50%;
+    width: 130px;
+    font-weight: 400;
+    background-color: #008E97;  
+    float: left;
+    margin-right: 25px;
+}
+
+.resumetitle-header {
+  color: #fff;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+    font-size: 16px;
+}
+
+.resumecontainer {
+overflow: auto;
+}
+
+.resumecontent {
+float: right;
+    width: 450px;
+    margin-bottom: 50px;
+    
+}
+
+/*End for Resume.html */
+
+/*Start of Project.html */
+
+.project-titlecircle {
+    height: 130px;
+    border-radius: 50%;
+    width: 130px;
+    font-weight: 400;
+    background-color: #008E97;  
+    float: right;
+    margin-right: 25px;
+}
+
+.projecttitle-header {
+  color: #fff;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+    font-size: 16px;
+}
+
+.projectcontainer {
+    overflow: auto;
+    height: 400px;
 }
