@@ -10,7 +10,8 @@
     font-size: 18px;
     padding: 10px;
     margin-left: 250px;
-    width: 950px;
+    width: 990px;
+    overflow: auto;
 }
 
 .ericabadu {
@@ -42,7 +43,6 @@ ul.nav-pills li a:hover{
     background-color: #fdebdc;
     height: 170px;
 }
-
 
 .MainContent {
     margin: 15px;
@@ -84,6 +84,7 @@ ul.nav-pills li a:hover{
     text-transform: uppercase;
     font-weight: 700;
     background-color: #008E97;
+    transition: ease-out 1s;
 }
 
 .circle-resume a:link {
@@ -94,6 +95,7 @@ ul.nav-pills li a:hover{
 .circle-resume:hover {
     background-color: #00575c ;
     transition: ease-in .4s;
+    
     
 }
 
@@ -109,6 +111,7 @@ ul.nav-pills li a:hover{
     text-transform: uppercase;
     font-weight: 700;
     background-color: #F58220;
+     transition: ease-out 1s;
     
 }
 
@@ -135,6 +138,7 @@ ul.nav-pills li a:hover{
     text-transform: uppercase;
     font-weight: 700;
     background-color: #005778;
+     transition: ease-out 1s;
 }
 
 .circle-skills a:link {
@@ -214,14 +218,14 @@ ul.nav-pills li a:hover{
     display: inline-block;
     line-height: 2;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: #fdebdc;
-    
+    font-weight: 200;
 }
 
 .call a:link{
     text-decoration: none;
-    color: #fdebdc;
+    color: black;
     font-weight: 700;
 }
 
@@ -230,10 +234,19 @@ ul.nav-pills li a:hover{
     font-weight: 700;
 }
 
+.contact p {
+    display: inline-block;
+    line-height: 2;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fdebdc;
+    font-weight: 200;
+}
+
 .contact a:link{
     text-decoration: none;
-    color: #fdebdc;
-    font-weight: 700;
+    color: black;
+    font-weight: 200;
 }
 
 .contact a:hover {
@@ -244,11 +257,16 @@ ul.nav-pills li a:hover{
 .follow a:link{
     color: #fdebdc;
     font-weight: 700;
+    font-size: 30px;
 }
 
-.follow a:hover {
+.fa.fa-twitter a:hover {
     color: #008E97;
     font-weight: 700;
+}
+
+.fa.fa-twitter {
+color: #fdebdc;
 }
 
 .fa.fa-envelope-o   {
@@ -277,6 +295,18 @@ display: inline-block;
     display: inline-block;
     vertical-align: bottom;
     text-align: center;
+    color: black;
+}
+
+.fa.fa-plus a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.fa.fa-plus a:hover {
+    color: #008E97;
+    font-weight: 700;
 }
 
 .follow p {
@@ -366,7 +396,6 @@ display: inline-block;
 .resumeaside li {
     list-style: none;
 }
-
 
 .resumeaside {
     margin-top: 150px;
