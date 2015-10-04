@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+
+ .MainContent {
+ height: 1500px;
+ }
+    
+    .nameplate {
+    margin-left: 0px;
+    overflow: auto;
+     width: 300px;
+}
+    
+    .ericabadu {
+        width: 300px;
+    }
+    
+    .title {
+    width: 185px;
+    }
+    
+    .nav-pills {
+        width: 300px;
+        margin-left: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    
+    ul.nav-pills li a{
+        width: 100px;
+        
+    }
+    
+    .intro {
+    margin-left: 0px;
+        
+    }
+    
+    .headshot {
+    height: 155px;
+        margin-top: 140px;
+        float: left;
+    }
+    
+    .circleholder {
+        width: 330px;
+        height: 210px;
+        padding-top: 5px;
+        margin-left: 0px;
+        overflow: auto;
+    }
+    
+    .circle-resume {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    
+     .circle-work {
+        width: 100px;
+        height: 100px;
+         float: left;
+    }
+    
+     .circle-skills {
+        width: 100px;
+        height: 100px;
+         float: left;
+    }
+    
+    .textundercircles {
+     overflow: hidden;
+        height: 100%;
+    }
+    
+    .hello {
+        font-size: 55px;
+        width: 150px;
+        float: right;
+        overflow: hidden;
+    }
+    
+    .abit {
+        font-size: 35px;
+        overflow: hidden;
+        float: right;
+    }
+    
+    .footer {
+    
+    }
+}
