@@ -1,16 +1,10 @@
-.intro {
-    margin: 0 auto;
-    margin-left: 15%;
-    height: 100%;
-    overflow: visible;
-}
 
 .nameplate {
     font-family: 'Catamaran';
     font-weight: bold;
     font-size: 18px;
     padding: 10px;
-    margin-left: 250px;
+    margin-left: 15%;
     width: 990px;
     overflow: auto;
 }
@@ -66,6 +60,7 @@ ul.nav-pills li a:hover{
 .headshot {
     height: 350px;
     float: left;
+    margin-left: 15%;
 }
 
 .headshottext {
@@ -170,6 +165,7 @@ ul.nav-pills li a:hover{
     margin-top: 25px;
     font-size: 18px;
     font-weight: 500;
+    margin-left: 15%;
 }
 
 .Footer {
@@ -255,19 +251,51 @@ ul.nav-pills li a:hover{
     font-weight: 700;
 }
 
-.follow a:link{
+
+.follow p {
+    display: inline-block;
+    line-height: 2;
+    margin-left: 10px;
+    font-size: 16px;
     color: #fdebdc;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 200;
 }
+
 
 .fa.fa-twitter a:hover {
     color: #008E97;
     font-weight: 700;
+        font-weight: 700;
+    font-size: 30px;
 }
 
 .fa.fa-twitter {
 color: #fdebdc;
+        font-weight: 700;
+    font-size: 30px;
+}
+
+.fa.fa-linkedin a:hover {
+    color: #008E97;
+    font-weight: 700;
+    
+}
+
+.fa.fa-linkedin {
+color: #fdebdc;
+            font-weight: 700;
+    font-size: 30px;
+}
+
+.fa.fa-github-alt a:hover {
+    color: #008E97;
+    font-weight: 700;
+}
+
+.fa.fa-github-alt {
+color: #fdebdc;
+            font-weight: 700;
+    font-size: 30px;
 }
 
 .fa.fa-envelope-o   {
@@ -293,8 +321,7 @@ display: inline-block;
     line-height: 60px;
     width: 60px;
     height: 60px;
-    display: inline-block;
-    vertical-align: bottom;
+    display: inline-block; 
     text-align: center;
     color: black;
 }
@@ -310,13 +337,7 @@ display: inline-block;
     font-weight: 700;
 }
 
-.follow p {
-display: inline-block;
-    line-height: 2;
-    margin-left: 10px;
-    font-size: 16px;
-    color: #fdebdc;
-}
+
 
 .fa.fa-copyright   {
   font-size: 30px;
